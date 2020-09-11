@@ -1,0 +1,22 @@
+Données ouvertes 
+Pour une diversification des outils d’information à la clientèle
+
+Les données sur les horaires et les parcours du RTC (les «Informations publiques») sont maintenant disponibles en format standardisé General Transit Feed Specification (GTFS) pour en faciliter l’utilisation, sous réserve des modalités prévues à la présente licence d’utilisation: 
+
+-Le RTC autorise, à des fins personnelles ou commerciales, l’utilisation, la reproduction, la rediffusion, l’exploitation et l’inclusion des Informations publiques dans un produit, un service ou une application. 
+
+Le traitement des Informations publiques est également permis sous réserve de ne pas en altérer ou en dénaturer le sens. Notamment, le traitement effectué par l’utilisateur ne doit pas induire les tiers en erreur quant au contenu ou à la source des Informations publiques.  
+
+On entend par traitement, le regroupement, l’enrichissement ou le croisement des Informations publiques pour permettre l’interopérabilité entre elles ou avec d’autres informations. 
+
+-L’utilisateur doit indiquer la provenance et la date de la dernière mise à jour des Informations publiques, notamment en indiquant minimalement la mention suivante : 
+«Application, produit ou service, intégrant les Informations publiques  du Réseau de transport de la Capitale, mises à jour le ___________.» 
+
+-Les Informations publiques sont fournies dans l’état où elles se trouvent au RTC. 
+
+-Le RTC n’offre aucune garantie quant à la disponibilité des Informations publiques ni à l’effet que celles-ci soient exemptes d’anomalies, d’erreurs ou de bogues. L’utilisateur des Informations publiques les exploite sous son entière responsabilité. 
+Le RTC se réserve le droit, suivant un avis de correction donné à l’usager, d’exiger le retrait de tout produit, service ou application utilisant les Informations publiques à l’encontre de la présente licence d’utilisation ou dont l’utilisation peut porter atteinte à l’image du RTC, à sa mission ou au transport en commun de façon générale. 
+
+Cette licence peut évoluer. Le RTC s’engage, dans la mesure du possible, à diffuser les modifications envisagées avant leur entrée en vigueur.
+
+En téléchargeant ou en utilisant les Informations publiques, l’usager accepte les modalités de la présente licence d’utilisation et s’en déclare satisfait.

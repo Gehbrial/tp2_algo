@@ -1,0 +1,65 @@
+Nombre de lignes = 290
+Nombre de stations initiales = 4584
+Nombre de services = 3
+Chargement des données effectué en 4.54157 secondes
+Nombre de stations ayant au moins 1 arret = 4182
+Nombre de transferts = 634
+Nombres de voyages = 3227
+Nombre d'arrets = 152680
+Graphe (sans le point source et destination) a été produit en 0.181362 secondes
+
+=============================================
+                  premier cas                
+=============================================
+
+Coordonnées GPS du point d'origine: (lat:46.758, long:-71.3368)
+Coordonnées GPS du point de destination: (lat:46.829, long:-71.2483)
+Nombre d'arcs ajoutés du point origine vers une station = 130
+Nombre d'arcs ajoutés d'une station vers le point destination = 7093
+Cet ajout au graphe a nécessité un temps d'exécution de 0.010706 secondes
+
+=====================
+     ITINÉRAIRE      
+=====================
+
+Heure de départ du point d'origine: 08:30:00
+Rendez vous à la station 2069 - Laudance (lat:46.7619, long:-71.3364)
+De cette station, prenez l'autobus numéro 807 à l'heure 08:36:00 Vers Place D'Youville (Est)
+et arrêtez-vous à la station 1486 - Belvédère (lat:46.7996, long:-71.2426) à l'heure 09:01:00
+De cette station, rendez-vous à pieds à la station 1084 - Ste-Foy (lat:46.8, long:-71.2428)
+De cette station, prenez l'autobus numéro 802 à l'heure 09:09:00 Vers Terminus Beauport (Est)
+et arrêtez-vous à la station 1753 - Centre de foires (lat:46.8268, long:-71.2451) à l'heure 09:19:00
+Déplacez-vous à pieds de cette station au point destination
+Heure d'arrivée à la destination: 09:23:13
+Durée du trajet: 0 heures, 53 minutes, 13 secondes
+
+Temps d'exécution de l'algorithme de plus court chemin: 4516 microsecondes
+
+=============================================
+                  deuxième cas               
+=============================================
+
+Suppression du graphe connecté aux points source et destination
+Cette suppresion a nécessité un temps d'exécution de 0.000794 secondes
+Coordonnées GPS du point d'origine: (lat:46.829, long:-71.2483)
+Coordonnées GPS du point de destination: (lat:46.758, long:-71.3368)
+Nombre d'arcs ajoutés du point origine vers une station = 152
+Nombre d'arcs ajoutés d'une station vers le point destination = 7010
+Cet ajout au graphe a nécessité un temps d'exécution de 0.004193 secondes
+
+=====================
+     ITINÉRAIRE      
+=====================
+
+Heure de départ du point d'origine: 08:30:00
+Rendez vous à la station 1725 - Centre de foires (lat:46.8266, long:-71.2456)
+De cette station, prenez l'autobus numéro 802 à l'heure 08:36:00 Vers Station Belvédère (Ouest)
+et arrêtez-vous à la station 1163 - Ste-Foy (lat:46.7995, long:-71.2435) à l'heure 08:50:00
+De cette station, rendez-vous à pieds à la station 1400 - H. St-Sacrement (lat:46.7996, long:-71.2433)
+De cette station, prenez l'autobus numéro 807 à l'heure 08:58:00 Vers Pointe-de-Sainte-Foy (Ouest)
+et arrêtez-vous à la station 2108 - Ste-Foy/2108 (lat:46.7573, long:-71.3373) à l'heure 09:26:00
+Déplacez-vous à pieds de cette station au point destination
+Heure d'arrivée à la destination: 09:27:01
+Durée du trajet: 0 heures, 57 minutes, 1 secondes
+
+Temps d'exécution de l'algorithme de plus court chemin: 8603 microsecondes

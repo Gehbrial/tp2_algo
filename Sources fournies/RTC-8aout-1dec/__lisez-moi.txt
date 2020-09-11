@@ -1,0 +1,30 @@
+Date de mise à jour 20120618
+
+Données ouvertes 
+Pour une diversification des outils d’information à la clientèle
+
+Les éléments suivants ont été ajoutés aux Informations publiques du RTC qui sont en format standardisé General Transit Feed Specification (GTFS):
+
+Fichier stops.txt:
+Ajout du champ "wheelchair_boarding":
+"0" (ou vide) = indique qu'aucune information n'est disponible pour l'arrêt
+"1" = indique que des véhicules à cet arrêt peuvent faire monter des passagers en fauteuil roulant
+"2" = indique que la montée des passagers en fauteuil roulant est impossible à cet arrêt
+
+Fichier trips.txt:
+Ajout du champ "wheelchair_accessible"
+"0" (ou vide) = indique qu'aucune information n'est disponible pour ce voyage 
+"1" = indique que le véhicule utilisé pour ce voyage peut accomoder au moins un passager en fauteuil roulant
+"2" = indique que le véhicule utilisé pour ce voyage ne peut accomoder un passager en fauteuil roulant
+
+Référez-vous à la page des changements pour connaître les détails des propositions de changement (https://developers.google.com/transit/gtfs/changes).
+
+
+Les éléments suivants ont été ajoutés aux Informations publiques du RTC mais ne sont pas partie intégrante du standard General Transit Feed Specification (GTFS):
+Fichier Horaire_Boucle_Partage.txt
+	Ce fichier est défini avec la même structure que le fichier stop_times.txt du format standard.
+	Il comporte les informations définissant des portions d'horaire à ajouter aux outils de présentation, mais ne devant pas être utilisé pour les planificateurs d'itinéraire.
+	Les portions d'horaire présent dans ce fichier sont déjà inclus dans l'horaire standardisé.
+
+
+
